@@ -1,0 +1,22 @@
+<div class="container"> 
+    <section class="section">
+        <h1 class="title"> Por favor registrate</h1>
+        <div class="column is-full">
+            <form #form="ngForm" (ngSubmit)="onsubmit(form)">
+
+                <div class="control">
+                    <label class="label">Usuario</label>
+                    <input type="text" name="user" required ngModel #user="ngModel"/>
+                  </div>
+          
+                  <div class="control">
+                    <label class="label">contraseña</label>
+                    <input type="password" name="passwd" required ngModel #user="ngModel"/>
+                  </div>
+          
+                  <input type="submit"  />
+            </form>
+        </div>
+    </section>
+<section></section>
+</div>
